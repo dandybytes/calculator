@@ -1,0 +1,78 @@
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #eee;
+  font-family: monospace;
+}
+
+main {
+  height: 64vmin;
+  width: 50vmin;
+  min-width: 10rem;
+  margin: 5rem auto;
+  padding: 1vmin;
+  background: #1D2C49;
+  box-shadow: 0 0 1rem #666;
+}
+
+.screen-container {
+  height: 12vmin;
+  width: 100%;
+}
+
+.screen {
+  height: 10vmin;
+  margin: 1.5vmin 0.5vmin 0.5vmin 0.5vmin;
+  border: 3px solid #777;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.row {
+  height: 10vmin;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  margin: 1%;
+  border: none;
+  font-size: 5vmin;
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.row-last button {
+  margin-bottom: 0;
+}
+
+.single {
+  width: 23.75%;
+}
+
+.double {
+  width: 48.5%;
+}
+
+.triple {
+  width: 73.25%;
+}
+
+.color1 {
+  background: #abc;
+}
+
+.color2 {
+  background: #0E788E;
+  color: #ddd;
+}
